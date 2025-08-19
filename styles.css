@@ -1,0 +1,151 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    align-items: center;
+}
+
+body {
+  background-image: url('https://t3.ftcdn.net/jpg/04/96/62/56/360_F_496625614_jVYC5eY8jyS6e4OHr9j733amJw5AKIh8.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-section {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.login-section .container .content .material-icons {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.login-section .container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #4d4a45;
+}
+
+.login-section .login-image {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section .login-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.login-section .container h1 {
+    font-size: 2em;
+    margin-bottom: 2em;
+    font-family: Arial, sans-serif;
+}
+
+.login-section .container .login-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+}
+
+
+.login-section .container .login-form form input{
+    padding: 0.5em;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+input::placeholder {
+  color: gray;
+  font-size: 1em;
+  text-align: center;
+}
+
+.login-section .container .login-form form button{
+    background:transparent;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0;
+    padding-top: 1em;
+}
+
+.login-section .container .login-form form button:hover {
+   text-decoration: underline;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-group .material-icons {
+  margin-right: 8px;
+  color: #ffffff;
+}
+
+.login-section .container .register-link {
+    margin-top: 5em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-section .container .register-link a {
+    background: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.login-section .container .register-link a:hover {
+    background-color: #fff;
+    color: #000;
+    transition-duration: 1s;
+    transition: color 1s ease;
+  transition: background-color 1s ease;
+    border: 1px solid #4d4a45;
+    border-radius: 2em;
+    width: 100%;
+    height: 2em;
+    margin: auto;
+
+}
+
+
